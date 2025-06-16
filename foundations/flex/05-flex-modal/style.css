@@ -20,13 +20,19 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px 16px;
+  gap: 16px;
+  display: flex;
 }
+
 
 .icon {
   color: royalblue;
   font-size: 26px;
   font-weight: 700;
   background: lavender;
+  min-width: 42px;
   width: 42px;
   height: 42px;
   border-radius: 50%;
@@ -41,6 +47,7 @@ body {
   color: #888;
   font-weight: 400;
   font-size: 16px;
+  min-width: 24px;
   height: 24px;
   width: 24px;
   display: flex;
@@ -48,6 +55,22 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.info{
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.header{
+  font-weight: bold;
+  font-size: 20px;
+  margin-right: auto;
+}
+
+.header-and-close{
+  display: flex;
 }
 
 button {
